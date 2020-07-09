@@ -21,7 +21,7 @@
 
 } 
 .row img{
-    width: 40%;
+    width: 30%;
 }
 
 .text{
@@ -45,4 +45,8 @@
 }
 #footer-center{
     text-align: center;
+}
+.wit{
+    width: 100px;
+
 }
