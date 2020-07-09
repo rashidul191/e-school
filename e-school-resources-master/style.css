@@ -1,0 +1,48 @@
+.container{
+    padding: 15px;
+   
+}
+.color{
+    color: red;
+}
+.green{
+    color:  #21B573;
+}
+.color-bg{
+    background-color:  #F0FFF0;
+}
+.get-btn{
+   background-image: linear-gradient(to bottom, #21B573 0%, #21B573 100%);
+   color: #ffffff;
+   border: none;
+   border-radius: 8px;
+   padding: 9px 25px;
+   cursor: pointer;
+
+}
+.row img{
+    width: 40%;
+}
+
+.text{
+    text-align: center;
+}
+.icon img{
+    width: 15px;    
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightcyan;
+}
+.man-img{
+    padding: 50px 0px ;
+}
+.bg-black{
+    background-color:rgb(54, 50, 50)
+}
+.font-end-color{
+    color: white;
+}
+#footer-center{
+    text-align: center;
+}

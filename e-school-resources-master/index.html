@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-School</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    
+   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <div class="container">
+  <div class="color-bg">
+    <div class="container ">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
           <img class="w-25" src="ICON/Logo.png" alt="">
@@ -22,18 +25,18 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Courses</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Others</a>
+            <li class="nav-item active">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Others</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+            <li class="nav-item active">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Blog</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sing in</button>
+            <button class=get-btn>Sign in</button>
           </form>
         </div>
       </nav> 
@@ -41,9 +44,12 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide"       data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-12">
-
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                      <h6 class="color">Are you ready to Learn?</h6>
+                      <h1>Learen With fun on <span class="green">any schedule</span></h1>
+                      <p>Lorem ipsum dolor sit amet, comsectetur adipiscing elit.Varius blandit facilisis quam netus</p>
+                      <button class=get-btn>Get Started</button>
                 </div>
                 <div class="col-md-6">
                   <img src="Photos/Illustration.png" class="d-block w-100" alt="...">
@@ -52,8 +58,158 @@
                </div>
             </div>
           </div>
-      </div>   
+      </div> 
+    </div>  
+    
+    <div class="container catagori  ">
+      <div class="row ">
+        <div class="col-md-3 ">
+          <div class="cat1">
+            <img  src="ICON/book.png" alt="">
+            <h5>1500+Topic</h5>
+            <p>Learn Anythings</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="cat2">
+            <img  src="ICON/Student.png" alt="">
+            <h5>1800+Students</h5>
+            <p>Learn Anythings</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="cat3">
+            <img  src="ICON/Test.png" alt="">
+            <h5>9K+Test Token</h5>
+            <p>Learn Anythings</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+         <div class="cat4">
+          <img  src="ICON/Students.png" alt="">
+          <h5>2000+Student</h5>
+          <p>Learn Anythings</p>
+         </div>
+        </div>
+       
+      </div>
     </div>
+    <div class="container courses">
+      <h1 class="text">Online Courses</h1>
+      <div class="card-deck">
+        <div class="card">
+          <img src="Photos/Morder pyschology.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Modern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button class=get-btn>Buy Course</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted icon"><img src="ICON/calendar.png" alt=""> Start 20 April,2021    <img src="ICON/people.png" alt="">
+            60 Seats</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Photos/Morder psyc.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Modern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button class=get-btn>Buy Course</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted icon"><img src="ICON/calendar.png" alt=""> Start 20 April,2021    <img src="ICON/people.png" alt="">
+              60 Seats</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Photos/Morder pychons.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Modern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button class=get-btn>Buy Course</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted icon"><img src="ICON/calendar.png" alt=""> Start 20 April,2021    <img src="ICON/people.png" alt="">
+              60 Seats</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="text">Testimonial</h1>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <img class="man-img" src="Photos/Man.png" class="d-block w-40" alt="...">
+              </div>
+              <div class="col-md-6">
+                <p>There are many variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected humour,
+                  or randomised words which don't look even slightly believable.</p>
+              </div>
+            </div>    
+          </div>  
+      </div>
+     </div>
+    </div>
+
+  <div class="bg-black font-end-color">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Millions of people of all ages and from around
+            <br>
+            the world are improving their lives with us</p>
+        </div>
+        <div class="col-md-2">
+          <h6>Course</h6>
+          <p>
+            Graphic Design
+            <br>
+            Web Design
+            <br>
+            Business
+            <br>
+            Marketing
+            <br>
+            Engineering</p>
+        </div>
+        <div class="col-md-2">
+          <h6>Terms</h6>
+            <p>
+              Graphic Design
+              <br>
+              Web Design
+              <br>
+              Business
+              <br>
+              Marketing
+              <br>
+              Engineering</p>
+        </div>
+        <div class="col-md-2">
+          <h6>Useful Link</h6>
+            <p>
+              Graphic Design
+              <br>
+              Web Design
+              <br>
+              Business
+              <br>
+              Marketing
+              <br>
+              Engineering</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <p id="footer-center">Copyright © 2020 Rashidul</p>
+    </div>
+  </div>
 
 
 
